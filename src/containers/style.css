@@ -1,0 +1,59 @@
+.landing-img {
+  /* position: relative; */
+  /* display: grid; */
+  width: 100%;
+  max-width: 39rem;
+  height: auto;
+}
+.landing-page {
+  /* height: 80vh; */
+  /* background-color: #bb8f78; */
+  background-color: #b7f8db;
+}
+.card-login {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+.card-login .card-item {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background: linear-gradient(0deg, #b7f8db 0%, #50a7c2 100%); */
+  background-color: #b7f8db;
+  border-radius: 5%;
+}
+.text-desc {
+  /* font-size: calc(0.15em + 1vw); */
+
+  width: 100%;
+  /* max-width: 15rem; */
+  margin-top: 1rem;
+}
+
+.img-desc {
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+}
+
+.item-wrapper:nth-child(odd) {
+  display: flex;
+  justify-content: start;
+}
+
+.item-wrapper:nth-child(even) {
+  display: flex;
+  justify-content: end;
+}
+
+.items {
+  width: 50vw;
+
+  /* display: grid; */
+  /* align-self: center; */
+  background-color: #b7f8db;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-wishlist {
+  color: black;
+}
